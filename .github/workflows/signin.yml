@@ -14,11 +14,11 @@ jobs:
         with:
           REFRESH_TOKENS: ${{ secrets.REFRESH_TOKENS }}
           GP_TOKEN: ${{ secrets.GP_TOKEN}}
-          PUSH_TYPES: 'telegram,sendkey'
+          PUSH_TYPES: 'sendkey'
           DO_NOT_REWARD: 'false'
           SERVERCHAN_SEND_KEY: ${{ secrets.SCT44659TFYzazNQXi04milvARLMoST0m }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.6384769972:AAGcvl8fbhUOTHJvWJhGhiuP5OnxekunHW4 }}
-          TELEGRAM_CHAT_ID: ${{ secrets.6384769972 }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets. }}
+          TELEGRAM_CHAT_ID: ${{ secrets. }}
           PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
           PUSHPLUS_TOPIC: ${{ secrets.PUSHPLUS_TOPIC }}
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
