@@ -17,8 +17,8 @@ jobs:
           PUSH_TYPES: 'sendkey'
           DO_NOT_REWARD: 'false'
           SERVERCHAN_SEND_KEY: ${{ secrets.SCT44659TFYzazNQXi04milvARLMoST0m }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets. }}
-          TELEGRAM_CHAT_ID: ${{ secrets. }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
           PUSHPLUS_TOPIC: ${{ secrets.PUSHPLUS_TOPIC }}
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
